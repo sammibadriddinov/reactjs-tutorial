@@ -1,0 +1,27 @@
+.li-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.input {
+  margin-right: 0.5rem;
+}
+.done {
+  text-decoration: line-through;
+}
+.btn {
+  padding: 3px 10px;
+  background: crimson;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+.btn:hover {
+  opacity: 0.8;
+}
